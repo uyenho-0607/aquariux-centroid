@@ -1,0 +1,40 @@
+# GENERAL #
+password_crm: Auto@12345
+password: Autotest@12345
+
+metatrader:
+  lirunex:
+    base_url: https://lirunex-global-mb.webtrader-sit.s20ip12.com
+
+    credentials:
+      mt4:
+        crm: mt4_automation40@mailinator.com
+        live: ...
+        demo: 2092010247
+
+      mt5:
+        crm: mt5_automation45@mailinator.com
+        live: ...
+        demo: 569202036
+
+    app_package: com.aquariux.wt.sit.lirunex
+    app_bundle: com.aquariux.wt.sit.lirunex
+
+  transactCloud:
+    base_url: https://transactcloudmt5-mb.webtrader-sit.s20ip12.com
+    credentials:
+      mt5:
+        live: 998771
+        demo: 998771
+
+    app_package: com.aquariux.wt.sit.transactcloudmt5
+    app_bundle: com.aquariux.wt.sit.transactcloudmt5
+
+centroid:
+  main:
+    base_url: https://centroid-mb.webtrader-sit.s20ip12.com
+    credentials:
+      user: mt4_automation40@mailinator.com
+
+    app_package: ...
+    app_bundle: ...
